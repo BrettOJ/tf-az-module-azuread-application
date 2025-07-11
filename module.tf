@@ -1,4 +1,4 @@
-resource "azuread_application" "this" {
+resource "azuread_application" "app_registration" {
   display_name                   = var.display_name
   description                    = var.description
   device_only_auth_enabled       = var.device_only_auth_enabled
